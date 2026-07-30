@@ -5,7 +5,7 @@ function calcular(botao) {
   notaSelecionada = numero;
 }
 
-function submit() {
+function mostrarNota() {
   // Verifica se a notaSelecionada ainda está sem valor (undefined)
   if (!notaSelecionada) {
     alert("Please select a rating before submitting.");
